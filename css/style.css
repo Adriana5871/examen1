@@ -1,0 +1,324 @@
+*{	
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+   font-family: 'Lato', sans-serif;
+}
+.padre{
+	display: flex;
+	flex-flow: column nowrap;
+}
+  .main-header{
+     background: url(../images/slider.png);
+     background-position: center; 
+     background-attachment: contain;
+     background-size: cover;
+     display: flex;
+     flex-flow: column nowrap;
+  }
+    .menu{
+    	display: flex;
+    	justify-content: space-between;
+    	margin-top: auto;
+    } 
+     .iconoMusic .fas{
+         	color: white;
+         	width: 10px;
+         }
+         .iconoMusic >i{
+         color: white;
+         font-size: 50px;
+         }
+       .navegador{
+        flex-flow: 1 1 auto;
+        display: flex;
+        align-items: flex-start;
+        height: 400px;
+        margin-top: unset;
+       }
+       .navegador ul{
+	   list-style: none;
+         }
+        .navegador ul li {
+	    margin: 5px 10px;
+        }
+       .navegador ul li a {
+	   color: white;
+	   font-weight: 700;
+	   text-decoration: none;
+	   transition: all 0.2s ease-in;
+       }
+     .navegador ul li a:hover {
+	  color: #8DABC2;
+	  border-bottom: 2px solid #8DABC2;
+       }
+       .subNavegador{
+       	display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 100px;
+       }
+    .menu2{
+        align-self: center; 
+        height: 100px;
+    } 
+      .btn-contact {
+       border-color: transparent;
+       background-color: #32618D;
+       border-radius: 5px;
+       color: white;
+       font-size: 15px;
+       padding-left: 50px;
+       padding-right: 50px;
+       padding-top: 2px;
+       padding-bottom: 2px;
+       height: 40px;
+     }
+     .btn-contact> a{
+     	color: white;
+     	text-decoration: none;
+     }
+    .menu3 {     
+       height: 100px 
+    }
+    .menu3 h2{
+    	color: white;
+    	align-items: flex-end;
+    } 
+ .container{
+     display: flex;
+    flex-flow: column nowrap;
+ }
+     .titleCard{
+     align-self: center;
+     font-size: 30px;
+     }
+      .titleCard h1{    	
+    	color: #2468B9;
+      }
+    .containerSecundario{    
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     justify-content: space-around;
+     align-items: center;
+     list-style: none;
+     height: 400PX;
+     padding-bottom: 72px;
+    }
+       .card{
+        width: 300px;
+        border: 2px solid #555;
+        position: relative;
+        margin: 1.5em auto 0;
+        border-radius: .2em;
+	    
+      }
+      .hed {
+  position: relative;
+  height: 110px;
+  background-image: linear-gradient(#0C6798, #0C6798);
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    0 calc(100% - 5vw)
+  )
+  
+}
+
+.h5{
+    margin: -1px;
+    padding: 221px 0;
+    padding-top: 43px;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+.h5> a{
+	color: white;
+
+}
+.sec {
+ height: 124px;
+  margin-top: -5vw;
+  background-image: linear-gradient(135deg, white, white);
+}
+ 
+ .container1{
+    background: -webkit-linear-gradient(#19396C, #67E8CF); 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+
+ }
+ .container1  a{
+ 	text-decoration:none;
+ 	color: white;
+ 	font-size: 25px;
+ }
+   .subcontainer{
+   	flex-direction: column;
+   	align-items: center;	
+     flex: 1 1 40%;
+     display: flex;
+     list-style: none;
+     height: 300px;
+     line-height:100px;
+
+   } 
+    .subcontainer1{
+    	margin-bottom: auto;
+    }
+    .subcontainer >i{
+    	font-size: 10px;
+    }
+.footer {
+	background-color: #0C6798;
+	color: white;
+	text-align: center;
+	height: auto;
+	margin-top: 30px;
+}
+
+/* iniciar sesion*/
+.MenuMusic{
+	background: #0C6798;
+	display: flex;
+    flex-flow: column nowrap;
+	flex-direction: column;
+	justify-content: center;
+	height: 100px;
+}
+.menuIcono{
+	align-self: center;
+	color: white;
+	font-size: 60px
+}
+.inicioSesion{
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+}
+.login-form{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	
+}
+ .form-control {
+        border-radius: 5px;	
+         display: block;
+         width: 100%;
+        }
+
+
+        .subtitulos{
+        	display: flex;
+        	flex-direction: row;
+        	justify-content: space-around;
+        }
+        .subti > label {
+        	font-size: 10px;
+        }
+        .color{
+        	color: #0C6798;
+        }
+        .check > label{
+        	font-size: 5px;
+        }
+        .check >input{
+        	height: 10px;
+        	width: 10px;
+        }
+         .registrate{
+         	padding-bottom: 10px;
+         }
+        .registrate > button{
+        	background: #3B5998;
+        	height: 50px;	 
+        	border-radius: 20px;  
+        	border:none;	
+            }
+            .check{
+
+            }
+        .btn-reg{
+            background: #2468B9 ;
+            border:none;	
+        }
+    .lineaPrincipal{
+    	position: relative;
+        text-align: center;
+    }    
+    .lineaPrincipal > hr{
+    margin: 0;
+    position: absolute;
+    /* height: 10px; */
+    background-color: red;
+    border: 1px solid black;
+    right: 0;
+    left: 0;
+    top: 8px;
+    z-index: 1;
+    }
+    .lineaPrincipal > h3{
+    	margin-top: 0;
+    display: inline-block;
+    z-index: 38;
+    position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: white;
+    }
+    .selectorCuadros{
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: space-between;
+    }   
+
+@media screen and (max-width: 480px) {
+  .selectorCuadros{
+    	display: flex;
+    	flex-direction: column;
+    	justify-content: space-between;
+
+    } 
+    .titleCard {
+    align-self: center;
+    font-size: 30px;
+    padding-bottom: 100px;
+}
+    .card{      
+        width: 200px;
+        border: 2px solid #555;
+        position: relative;
+        margin: 1.5em auto 0;
+        border-radius: .2em;
+	    
+      }  
+
+    .container{
+    display: flex;
+    flex-flow: column nowrap;
+    flex-direction: column;
+
+ }
+
+     .containerSecundario{    
+     display: flex;
+     flex-direction: column;
+     flex-wrap: nowrap;
+     justify-content: space-around;
+     align-items: center;
+     list-style: none;
+     height: 500PX;
+     
+    }
+    .container1 {
+    background: -webkit-linear-gradient(#19396C, #67E8CF);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 90px;
+}
